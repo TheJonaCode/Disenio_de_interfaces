@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:background="@color/colorAccent"
-        android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
 
         <TextView
+            android:id="@+id/tvMainTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hola Mundo, Curso de interface" />
+            tools:background="@color/colorPrimary"
+            tools:text="Hola Mundo, curso de interface" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textSize="40sp"
+        tools:background="@color/red"
+        tools:text="Hola Mundo, curso de interface" />
         <EditText
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:background="@color/colorPrimary"
+        tools:text="Hola Mundo, curso de interface" />
+    <EditText
+            android:background="@color/colorPrimaryDark"
+            android:inputType="number"
             android:hint="Escribe tu nombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
